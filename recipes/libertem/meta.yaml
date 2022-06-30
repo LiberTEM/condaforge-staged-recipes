@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 build:
-  skip: true  # [py2k or py==39]
+  skip: true  # [py2k]
   entry_points:
     - libertem-server=libertem.web.cli:main
     - libertem-worker=libertem.executor.cli:main
